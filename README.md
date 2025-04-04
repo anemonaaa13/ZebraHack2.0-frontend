@@ -4,76 +4,76 @@ Zebra Hack Project
 
 This repository contains the work done by team Maca_Maca for ZebraHack2.0, the hackathon organized for the Web Technologies course at ACS in UPB.
 
-# 📚 AmpliFY ONG – Biblioteca Resurselor
+# 📚 AmpliFY ONG – Resource Library
 
-Un proiect dezvoltat în cadrul **ZebraHack 2025 – Challenge 3: AmplifyONG**, care urmărește digitalizarea și centralizarea resurselor educaționale pentru ONG-urile din România, oferind o platformă prietenoasă și intuitivă exclusiv pe partea de **front-end (HTML, CSS, JavaScript)**.
-
----
-
-## 🎯 Scopul Proiectului
-
-Inițiativa **AmpliFY ONG** își propune să sprijine dezvoltarea mediului ONG din România prin:
-- O bibliotecă online de resurse educaționale personalizate.
-- Evaluarea nivelului de cunoștințe prin quiz-uri interactive.
-- Recomandări adaptate pe baza intereselor utilizatorilor și a evaluărilor.
+A front-end project developed for **ZebraHack 2025 – Challenge 3: AmplifyONG**, aiming to digitalize and centralize educational resources for NGOs in Romania. This solution is built entirely using **HTML, CSS, and JavaScript**, with a focus on modern design, responsiveness, and user interactivity.
 
 ---
 
-## 🧩 Funcționalități Implementate
+## 🎯 Project Purpose
 
-Platforma este 100% statică, creată cu **HTML, CSS și JavaScript**, fără backend, și respectă toate cerințele brief-ului:
-
-### ✅ Task 1 – Header-ul platformei
-- Logo + titlul „AmpliFY ONG – Biblioteca Resurselor”
-- Meniu de navigare: Acasă, Biblioteca, Domenii de interes, Contact
-- Evidențierea paginii active
-- Meniu tip hamburger pe mobil
-
-### ✅ Task 2 – Secțiune introductivă
-- Titlu și descriere despre beneficiile bibliotecii
-- Imagini reprezentative ale activității ONG-urilor
-- Design complet responsive
-
-### ✅ Task 3 – Autentificare & Selectare domenii
-- Formular static de login (email + parolă)
-- Domenii de interes interactive: Fundraising, Proiecte, Comunicare, Management
-- Complet responsive
-
-### ✅ Task 4 – Pagina principală a bibliotecii
-- Căutare după cuvinte cheie
-- Resurse organizate pe categorii: articole, template-uri, video-uri
-- Filtrare după nivel și domeniu
-
-### ✅ Task 5 – Quiz-uri și recomandări
-- Carduri interactive pentru accesarea quiz-urilor
-- Liste generate de resurse recomandate pe baza quiz-urilor (simulare statică)
-
-### ✅ Task 6 – Dashboard personalizat
-- Domenii selectate și niveluri aferente
-- Resurse recomandate + activități recente
-- Totul construit static și responsive
-
-### ✅ Task 7 – Design modern și unitar
-- Paletă de culori coerentă cu identitatea vizuală AmpliFY ONG
-- Fonturi clare și componente interactive (butoane, hover, carduri)
-
-### ✅ Task 8 – Optimizare pentru mobil
-- Funcțional pe telefoane, tablete, desktop
-- Elemente interactive adaptate pentru touch
-- Liste și tabele simplificate pentru ecrane mici
+The **AmpliFY ONG** initiative supports the development of the NGO ecosystem in Romania through:
+- A personalized online library of educational materials.
+- Knowledge self-assessment via interactive quizzes.
+- Resource recommendations tailored to user interests and skill levels.
 
 ---
 
-## 🛠️ Tehnologii folosite
+## 🧩 Features Implemented
 
-- HTML5
-- CSS3 (Flexbox, Grid, media queries)
-- JavaScript Vanilla
+This project is **100% static**, with no backend or server-side logic. All features were implemented using **HTML, CSS, and JavaScript**, meeting the full scope of the challenge:
+
+### ✅ Task 1 – Platform Header
+- Includes the project logo and title: "AmpliFY ONG – Resource Library"
+- Navigation menu: Home, Library, Interest Areas, Contact
+- Highlights the active page in the menu
+- Responsive hamburger menu for mobile devices
+
+### ✅ Task 2 – Introduction Section
+- Title and description showcasing the library’s goals and benefits
+- Representative images related to AmpliFY ONG’s activities
+- Fully responsive static design
+
+### ✅ Task 3 – Login & Interest Area Selection
+- Static login form with fields for:
+  - Email
+  - Password
+- Interactive list of interest areas (e.g., Fundraising, Project Writing, Communication, Team Management)
+- Fully responsive layout
+
+### ✅ Task 4 – Main Library Page
+- Keyword-based search functionality
+- Resource list grouped into categories (e.g., articles, templates, educational videos)
+- Visual filters by skill level (beginner/intermediate/advanced) and interest area
+
+### ✅ Task 5 – Quizzes & Personalized Recommendations
+- Interactive cards that simulate access to quizzes for skill evaluation
+- Based on quiz results (simulated), users receive a custom list of recommended resources
+- Static and fully responsive
+
+### ✅ Task 6 – User Dashboard
+- Displays:
+  - Selected interest areas with associated knowledge levels
+  - Recommended resources organized by category
+  - Activity summary: completed quizzes and recently accessed materials
+- Fully static and responsive
+
+### ✅ Task 7 – Modern & Responsive Design
+- Consistent color palette matching AmpliFY ONG’s branding
+- Interactive components: hover effects, cards, buttons
+- Clean, readable, and uniform typography
+- Balanced layout and mobile-adaptive navbar
+
+### ✅ Task 8 – Mobile Optimization
+- Fully responsive on phones, tablets, and desktops
+- Optimized layouts for smaller screens
+- Touch-friendly interactive elements and simplified tables/lists
 
 ---
 
-## 🔧 Cum rulezi proiectul
+## 🛠️ Technologies Used
 
-1. Clonează acest repository:
-   ```bash
-   git clone https://github.com/username/amplify-ong-biblioteca.git
+- **HTML5**
+- **CSS3** (Flexbox, Grid, Media Queries)
+- **JavaScript**
+
