@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Contact - Maca Maca</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('logos/background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            min-height: 100vh; 
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="logos/logo maca-maca.png" alt="Maca Maca Logo">
+            <img src="logos/logo Amplify.png" alt="AmpliFY ONG Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link ">Acasă</a></li>
+                <li class="nav__item"><a href="biblioteca.html" class="nav__link">Biblioteca</a></li>
+                <li class="nav__item"><a href="domenii.html" class="nav__link">Domenii de interes</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+                <li class="nav__item"><a href="dashboard.html" class="nav__link">Dashboard</a></li>
+                <li class="nav__item"><a href="Quiz.html" class="nav__link">Quiz</a></li>
+        </nav>
+        <button class="header__hamburger" aria-label="Deschide meniul">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </button>
+    </header>
+    <header class="header_main">
+        <h1>Pagina de Contact - Maca Maca</h1>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>Despre Echipa Noastră</h2>
+            <p>Bine ai venit pe pagina de contact a echipei <strong>Maca Maca</strong>! Suntem o organizaţie non-guvernamentală (ONG) dedicată să sprijinim comunităţile şi să promovăm schimbarea pozitivă. Cu o echipă pasionată şi cu o experienţă vastă, lucrăm neîncetat pentru a oferi sprijin, resurse şi soluţii personalizate acolo unde este cea mai mare nevoie.</p>
+            <p>Misiunea noastră este să contribuim la o societate mai echitabilă şi mai incluzivă. Ne dorim să devenim un partener de încredere pentru comunităţi, susţinându-le în faţa provocărilor sociale, educaţionale şi de mediu. Cu sprijinul donatorilor şi al voluntarilor, suntem hotărâţi să generăm un impact pozitiv de lungă durată.</p>
+        </section>
+        
+        <section>
+            <h2>Formular de Contact</h2>
+            <form action="#" method="post">
+                <input type="text" name="nume" placeholder="Nume" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subiect" placeholder="Subiect" required>
+                <textarea name="mesaj" rows="5" placeholder="Mesaj" required></textarea>
+                <button type="submit">Trimite Mesajul</button>
+            </form>
+        </section>
+        
+        <section class="contact-details">
+            <h2>Contact Direct</h2>
+            <ul>
+                <li><strong>Email</strong>: contact@macamaca.ro</li>
+                <li><strong>Telefon</strong>: +40 123 456 789</li>
+                <li><strong>Adresă</strong>: Strada Exemplu, Nr. 10, Oraş, Ţara</li>
+            </ul>
+        </section>
+    </div>
+    <script src="JS/hamburger.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domenii de Interes</title>
+    <link rel="stylesheet" href="CSS/Domenii.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('logos/background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="logos/logo maca-maca.png" alt="Maca Maca Logo">
+            <img src="logos/logo Amplify.png" alt="AmpliFY ONG Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Acasă</a></li>
+                <li class="nav__item"><a href="biblioteca.html" class="nav__link ">Biblioteca</a></li>
+                <li class="nav__item"><a href="domenii.html" class="nav__link  active">Domenii de interes</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="dashboard.html" class="nav__link">Dashboard</a></li>
+                <li class="nav__item"><a href="Quiz.html" class="nav__link">Quiz</a></li>
+            </ul>
+        </nav>
+        <button class="header__hamburger" aria-label="Deschide meniul">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </button>
+    </header>
+
+<header class="header_main">
+    <h1>Domenii de Interes</h1>
+    <p>Selectează domeniile de interes pentru a personaliza resursele afișate.</p>
+</header>
+
+<div class="container">
+    <section class="intro-section">
+        <div class="domain-container">
+            <div class="domain-card" onclick="toggleSelection(this)">
+                <h3 class="domain-title">Fundraising</h3>
+                <p>Resurse despre colectarea de fonduri pentru ONG-uri.</p>
+            </div>
+            <div class="domain-card" onclick="toggleSelection(this)">
+                <h3 class="domain-title">Scriere de Proiecte</h3>
+                <p>Îmbunătățește-ți abilitățile de a scrie proiecte câștigătoare.</p>
+            </div>
+            <div class="domain-card" onclick="toggleSelection(this)">
+                <h3 class="domain-title">Comunicare</h3>
+                <p>Dezvoltă strategii de comunicare pentru ONG-ul tău.</p>
+            </div>
+            <div class="domain-card" onclick="toggleSelection(this)">
+                <h3 class="domain-title">Managementul Echipei</h3>
+                <p>Instrumente pentru gestionarea eficientă a echipei tale.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".header__hamburger");
+        const nav = document.querySelector(".header__nav");
+
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("nav--open"); 
+            hamburger.classList.toggle("open"); 
+        });
+    });
+
+    function toggleSelection(element) {
+        element.classList.toggle('selected');
+    }
+</script>
+
+</body>
+</html>

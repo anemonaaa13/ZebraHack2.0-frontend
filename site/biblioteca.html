@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Resurse</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('logos/background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            min-height: 100vh; 
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/biblioteca.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="logos/logo maca-maca.png" alt="Maca Maca Logo">
+            <img src="logos/logo Amplify.png" alt="AmpliFY ONG Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Acasă</a></li>
+                <li class="nav__item"><a href="biblioteca.html" class="nav__link active">Biblioteca</a></li>
+                <li class="nav__item"><a href="domenii.html" class="nav__link">Domenii de interes</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="dashboard.html" class="nav__link">Dashboard</a></li>
+                <li class="nav__item"><a href="Quiz.html" class="nav__link">Quiz</a></li>
+            </ul>
+        </nav>
+        <button class="header__hamburger" aria-label="Deschide meniul">
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+            <span class="hamburger__line"></span>
+        </button>
+    </header>
+    <header class="header_main">
+        <h1>Biblioteca de Resurse</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Caută resurse...">
+            <button id="search-button">Caută</button>
+        </div>
+
+        
+        <div class="filters">
+            <select id="level-filter">
+                <option value="">Toate nivelurile</option>
+                <option value="beginner">Începător</option>
+                <option value="intermediate">Intermediar</option>
+                <option value="advanced">Avansat</option>
+            </select>
+
+            <select id="domain-filter">
+                <option value="">Toate domeniile</option>
+                <option value="development">Dezvoltare</option>
+                <option value="design">Design</option>
+                <option value="marketing">Marketing</option>
+            </select>
+        </div>
+
+        
+        <div class="resource-category">
+            <h2>Articole</h2>
+            <div class="resource-list" id="articles">
+                
+            </div>
+        </div>
+
+        <div class="resource-category">
+            <h2>Template-uri</h2>
+            <div class="resource-list" id="templates">
+                
+            </div>
+        </div>
+
+        <div class="resource-category">
+            <h2>Video-uri educaționale</h2>
+            <div class="resource-list" id="videos">
+               
+            </div>
+        </div>
+    </div>
+    <script src="JS/hamburger.js"></script>
+    <script src="JS/filter.js"></script>
+</body>
+</html>
